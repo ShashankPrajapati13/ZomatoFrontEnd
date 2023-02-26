@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="order.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+   
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #right {
+            height: 100vh;
+        }
+        #asian_txt button,
+        #feat_txt button {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 6vw;
+            height: 4vh;
+            background-color: white;
+            border: .7px solid lightgrey;
+            border-radius: 6px;
+            box-shadow: 1px 1px 3px 3px rgb(254, 137, 116);
+        }
+        
+    </style>
+
+    <div id="main">
+        <div id="left">
+            <div id="ltop">
+                <img src="zomato.png" alt="" srcset="">
+            </div>
+            <div id="lmid">
+                <div id="profile">
+                    <div id="profile_img">
+                        <img src="default-user.png" alt="">
+                    </div>
+                    <div id="profile_dets">
+                        <h3>Mark Clarke</h3>
+                        <h3>example@gmail.com</h3>
+                    </div>
+                </div>
+               <div id="a">
+                <a href="index.html"><i class="ri-home-4-line"></i>HOME</a>
+                <a href="explore.html"><i class="ri-layout-grid-line"></i>EXPLORE</a>
+                <a href="favour.html"><i class="ri-bookmark-line"></i>FAVOURITES</a>
+                <a href="order.html"><i class="ri-file-list-3-line"></i>ORDERS</a>
+                <a href="message.html"><i class="ri-message-2-line"></i>MESSAGES</a>
+                <a href="setting.html"><i class="ri-settings-5-fill"></i>SETTINGS</a>
+               </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="rtop">
+                <div id="rtopl">
+                    <div id="loc">
+                       <a href=""> <i class="ri-map-pin-2-line"></i>
+                        <h5>San Frnciso, california</h5></a>
+                    </div>
+                    <div id="pick">
+                        <a href=""><i class="ri-shopping-bag-3-fill"></i>
+                            <h5>PICK UP</h5></a>
+                    </div>
+                    <div id="best_deal">
+                        <a href=""><i class="ri-vip-crown-2-line"></i>
+                            <h5>BEST DEALS</h5></a>
+                    </div>
+                </div>
+                <div id="rtopr">
+                    <form action="/index.html" method="post">
+                        <input type="text" placeholder="Search for...">
+                        <button><i class="ri-search-2-line"></i></button>
+                    </form>
+                    <div id="rtopr_bot">
+                        <button id="filter"><i class="ri-filter-3-line"></i></button>
+                    <button id="cart"><i class="ri-shopping-bag-3-line"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div id="feat_rest">
+                <div id="feat_txt">
+                    <h3>Orders</h3>
+                    <button>
+                        <i class="ri-map-2-line"></i>
+                        <h5>20 km</h5>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </button>
+                </div>
+                <div id="featCards">
+                    <div id="ffirst">
+                        
+                    </div>
+                    <div id="fsec"></div>
+                </div>
+            </div>
+            
+        </div>   
+    <script src="order.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+.UCards{
+    height: 20vh;
+    width: 25.5vw;
+    border: none;
+    border-radius:6px;
+    position: relative;
+    background-color: rgb(253, 252, 252);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.UCards #free{
+    background-color: rgb(255, 185, 185);
+    color: red;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.UCards #Utop,.UCards #Ubot,.UCards #Umid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+.UCards #Ubot{
+    width: 88%;
+}
+.UCards #Utop h4{
+    font-weight: 500;
+}
+.UCards #midL{
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    border-radius:4px ;
+    background-color: rgb(220, 220, 220);
+    height: 2.5vw;
+    width: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.UCards #midM{
+    margin-right: 7.5vw;
+}
+.UCards #midR{
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    border-radius:4px ;
+    background-color: rgb(196, 23, 23);
+    height: 2vw;
+    width: 4vw;
+    font-size: 1vw;
+    border: none;
+}
+.UCards #odC{
+    width: 19.5%;
+    height: .7vh;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    position: relative;
+}
+.UCards #odP{
+    width: 29.5%;
+    height: .7vh;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    position: relative;
+}
+.UCards #odD{
+    width: 49.5%;
+    height: .7vh;
+    border-radius: 10px;
+    background-color: rgb(209, 209, 209);
+    position: relative;
+}
+.UCards #odC #cprog{
+    /* width: 100%; */
+    height: .7vh;
+    border-radius: 10px;
+    background-color: rgb(218, 0, 0);
+}
+.UCards #odP #pprog{
+    width: 100%;
+    height: .7vh;
+    border-radius: 10px;
+    background-color: rgb(242, 226, 0);
+}
+.UCards #odD #dprog{
+    width: 30%;
+    height: .7vh;
+    border-radius: 10px;
+    background-color: rgb(51, 202, 0);
+}
+
+#ctag,#ptag,#dtag {
+    display: none;
+    padding: 4px;
+    background: rgb(88, 88, 88);
+    position: relative;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-140%);
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    position: absolute;
+    white-space: nowrap;
+    color: #ffff;
+  }
+  #ctag:before,#ptag:before,#dtag:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,-40%);
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-top: 18px solid rgb(88, 88, 88);
+    border-right: 10px solid transparent;
+  }
+
+  #odC:hover #ctag,#odP:hover #ptag,#odD:hover #dtag{
+    display: flex;
+  }

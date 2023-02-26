@@ -1,0 +1,72 @@
+
+.fcards{
+    height: 14vh;
+    width: 25.5vw;
+    border: none;
+    border-radius:6px;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    display: flex;
+    align-items: center;
+}
+
+.fcards #brandimg {
+    height: 12.6vh;
+    width: 25%;
+    background-color: rgb(238, 238, 238);
+    margin: .7vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+    border-radius:6px;
+}
+.fcards #brandimg img{
+    height: 60%;
+    width: 60%;
+    
+}
+#fcardsR{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 70%;
+    width: 80%;
+}
+.fcards #fcardsmid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:95%;
+}
+.fcards #fcardsmid #m{
+    display: flex;
+    align-items: center;
+}
+.fcards #fcardsmid #m img {
+height: 20px;
+width: 30px;
+}
+.fcards #fcardsmid  i{
+    color: rgb(255, 170, 0);
+}
+.fcards #fcardsbot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:90%;
+}
+.fcards #fcardsbot #floc{
+    display: flex;
+    align-items: baseline;
+}
+.fcards #fcardsbot #floc i{
+    font-size: 14px;
+}
+.fcards #fcardsbot #free,.acards #aCardbot #free{
+    background-color: rgb(255, 185, 185);
+    color: red;
+    padding: 2px 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
